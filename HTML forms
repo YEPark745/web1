@@ -1,0 +1,56 @@
+Single lines
+Type - Indicates the type of input control and for text input control it will be set to text
+name - Used to give a name to the control which is sent to the server to be recognized and get the value(initial default value)
+value - This can be used to provide an initial value inside the control
+size - Allows to specify the width of the text-input control in terms of characters
+maxlength - Allows to specify the maximum number of characters......
+
+
+Label function - easy to modifiy 
+
+<html>
+	<head>
+		<title>
+			HTML Controls
+		</title>
+	</head>
+	<body>
+		
+		<form>
+		First name: <input type = "text" name="first_name" value="Enter name" size=70 maxlength=12 />
+		<br>
+		Last name: <input type = "text" name="last_name" value="Enter surname" size=40 maxlength=10/>
+		<br><br><br>
+		Username: <input type = "text" name="first_name" value="Enter name" size=70 maxlength=22 />
+		<br>
+		Password: <input type = "password" name="pass" value="EnterEnterEnter" size=40 maxlength=10>
+		<br><br><br>
+		<label for="fname">First name</label><br>
+		<input type="text" id="fname" name="Jone"><br>
+		<label for="fname">Last name</label><br>
+		<input type="text" id="fname" name="Doe"><br>
+		<br>
+		<form>
+			<fieldset>
+			<legend>
+			Personnel info
+			</legend>
+				<label for="fname">First name</label><br>
+				<input type="text" id="fname" name="fname" value="Jone"><br>
+				<label for="lname">Last name</label><br>
+				<input type="text" id="lname" name="lname" value="Doe"><br><br>
+			</fieldset>
+		</form>
+		<form>
+		Click and choose from list combobox below<br>
+			<input list="browsers" size=40>
+			<datalist id="browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+		</form>
+	</body>
+</html>

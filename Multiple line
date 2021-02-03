@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>
+			HTML Controls
+		</title>
+	</head>
+	<body>
+		<u>Multiline text inputs</u><br><br><br><br>
+		<form>
+			Description : <br />
+			<textarea rows=3 cols=20 name="description"> 
+				Enter description here...
+			</textarea>
+			<br><br><br>
+			
+			<input type = "Checkbox" name = "maths" value = "on"> Maths
+			<input type = "Checkbox" name = "Physics" value = "on" checked> Physics
+			<input type = "Checkbox" name = "Chemical" value = "on"> Chemical
+			<input type = "Checkbox" name = "Music" value = "on" checked> Music
+			<br><br>
+			
+			From each group(subject, subject1) select one option.<br>
+			<u>Group1</u><br>
+			
+			<input type = "radio" name = "subject1" value = "Chemical" checked> Chemical
+			<input type = "radio" name = "subject1" value = "Music"> Music<br>
+			<u>Group2</u><br>
+			
+			<input type = "radio" name = "subject2" value = "Math"> Maths
+			<input type = "radio" name = "subject2" value = "Physics" checked> Physics<br><br><br><br>
+			
+			The combobox presentation:<br>
+			<select name = "dropdown" size=4 multiple >
+				<option value = "maths" > Maths</option>
+				<option value = "physics" selected>Physics</option>
+				<option value = "maths" > Maths</option>
+				<option value = "physics">Physics</option>
+				<option value = "maths" > Maths</option>
+				<option value = "physics">Physics</option>
+				<option value = "maths" > Maths</option>
+				<option value = "physics" selected>Physics</option>
+			</select>
+		</form>
+	</body>
+</html>
